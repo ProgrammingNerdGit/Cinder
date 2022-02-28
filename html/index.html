@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="codeStyle.css">
+</head>
+<body>
+    <header><img src="res/logo.svg"></header>
+    <main>
+        <pre class="prettyprint code" id="codeBox"></pre>
+        <section id="info">
+            <h1>"<t id="name">NAME</t>" by <t id="author">AUTHOR</t>, <t id="age">AGE</t> old</h1>
+            <p id="activityBar"><b>less than a parsec away</b> active <t id="active">ACTIVE</t> ago</p>
+            <br>
+            <h3>About <t id="name2">NAME</t></h3>
+            <p id="bio">BIO</p>
+        </section>
+        <section>
+            Random Gists:
+            <input type="checkbox" name="" id="randGists">
+        </section>
+        <yayOrNay>
+            <button id="nay">
+                <img src="res/nay.svg">
+            </button>
+            <button id="yay">
+                <img src="res/yay.svg">
+            </button>
+        </yayOrNay>
+    </main>
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+    <script src="codeTinder.js"></script>
+</body>
+</html>
